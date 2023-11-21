@@ -1,7 +1,7 @@
 function onClick(inputValue) {
     document.getElementById("displayedText").innerHTML = "Now I am in control";
     const user = {name: 'Bob'};
-    console.log('Hello ' + user.name);hkmv
+    console.log('Hello ' + user.name);
 
     const names = ['Sally', 'Jerome']
     const users = [{name: 'Sally'}, {name: 'Jerome'}]
