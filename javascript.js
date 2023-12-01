@@ -5,12 +5,12 @@ function onPress(inputName) {
         if (status === 'success') {
             const pokemonNames = data.results.map(showNames)
             console.log(pokemonNames);
-            document.getElementById("displayedText").innerHTML = pokemonNames.join(' ');
+            document.getElementById("displayedText").innerHTML = pokemonNames;
         }
     });
         
 }
 
 function showNames(pokemon) {
-    return pokemon.name
+    return JSON.stringify(pokemon);
 }
